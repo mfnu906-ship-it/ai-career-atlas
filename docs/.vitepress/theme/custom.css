@@ -1,0 +1,64 @@
+:root {
+  --vp-c-brand-1: #087e78;
+  --vp-c-brand-2: #056a66;
+  --vp-c-brand-3: #045b58;
+  --vp-c-brand-soft: rgba(8, 126, 120, 0.12);
+  --vp-home-hero-name-color: #102b36;
+  --vp-home-hero-name-background: linear-gradient(120deg, #102b36 20%, #087e78 82%);
+  --vp-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --vp-font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+.dark {
+  --vp-home-hero-name-color: #e8f5f2;
+  --vp-home-hero-name-background: linear-gradient(120deg, #e8f5f2 20%, #62d0bf 82%);
+}
+
+.VPHero .name {
+  letter-spacing: -0.055em;
+}
+
+.VPHero .text {
+  max-width: 680px;
+  letter-spacing: -0.035em;
+}
+
+.VPHero .tagline {
+  max-width: 620px;
+  line-height: 1.65;
+}
+
+.VPFeature {
+  border-radius: 14px;
+  transition: transform 160ms ease, border-color 160ms ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-3px);
+  border-color: var(--vp-c-brand-1);
+}
+
+.role-callout {
+  display: grid;
+  gap: 0.35rem;
+  margin: 1.5rem 0 2rem;
+  padding: 1.15rem 1.35rem;
+  border: 1px solid var(--vp-c-brand-soft);
+  border-left: 4px solid var(--vp-c-brand-1);
+  border-radius: 10px;
+  background: var(--vp-c-brand-soft);
+}
+
+.role-callout strong {
+  color: var(--vp-c-brand-1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .VPFeature {
+    transition: none;
+  }
+
+  .VPFeature:hover {
+    transform: none;
+  }
+}
