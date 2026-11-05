@@ -9,6 +9,7 @@ export default defineConfig({
     nav: [
       { text: 'Explore roles', link: '/roles/' },
       { text: 'Research notes', link: '/research/' },
+      { text: 'Revision plan', link: '/revisions/' },
       { text: 'GitHub', link: 'https://github.com/mfnu906-ship-it/ai-career-atlas' },
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/mfnu906-ship-it/ai-career-atlas' }],
