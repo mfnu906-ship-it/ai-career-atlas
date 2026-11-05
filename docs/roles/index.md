@@ -8,6 +8,12 @@ Titles vary between companies, and two people with the same title may do quite d
 | [AI engineer](/roles/ai-engineer) | How do we build and operate a useful AI product? | Application architecture, model and tool integration, data flows, testing, product iteration, and operations |
 | [AI evaluation engineer](/roles/evaluation-engineer) | How do we know this AI system behaves well enough? | Task design, datasets, scoring, error analysis, human review, and release quality |
 
+## AI roles at a glance
+
+- **Forward deployed engineer:** works with customers and their teams to fit AI systems into real workflows, connect existing tools, and bring solutions into production.
+- **AI engineer:** builds and operates products that use AI, combining software engineering with model integrations, data flows, testing, and ongoing product improvements.
+- **AI evaluation engineer:** measures whether an AI system works as intended by creating evaluations, analyzing failures, and helping teams make release decisions.
+
 ## Neighboring titles to investigate
 
 Depending on the company, related work may appear under **applied AI engineer**, **LLM engineer**, **agent engineer**, **AI product engineer**, **AI platform engineer**, **solutions architect**, **AI solutions engineer**, **research engineer**, or **ML engineer**. Use the work and expectations in the description to decide what the role really is.
