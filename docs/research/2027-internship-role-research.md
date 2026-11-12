@@ -58,3 +58,28 @@ This public page contains employer-source research and a proposed portfolio dire
 ## AI assistance
 
 AI helped locate and organize the employer descriptions, summarize the task and qualification language, compare the two roles, and draft the proposed portfolio evidence. The original employer pages are linked above so a reader can inspect the wording directly. The research date is shown because postings may change. No application has been submitted and the proposed portfolio check has not yet been performed.
+
+
+## Revision plan: build evidence from the Broadridge data requirement
+
+**Employer finding:** The Broadridge posting names exposure to Excel, Power BI, Tableau, or SQL and the ability to interpret data, identify trends, and communicate business insights.
+
+**Portfolio response:** I plan to build a small case study with a non-sensitive sample dataset. The planned work is to define one business question, document the dataset and its limits, clean the data, write at least five SQL queries, create one chart or summary table, and explain one finding with a possible business implication.
+
+**Expected deliverables:** a short README, field/data description, SQL file, one visual or summary table, and a short evidence-based explanation. This is a learning exercise, not professional experience.
+
+**Status:** Planned — not yet built, tested, or verified. The detailed plan is [here](/research/broadridge-data-insights-case-study-plan).
+
+### Research-to-plan check a reviewer can complete now
+
+1. Open the [original Broadridge internship posting](https://broadridge.wd5.myworkdayjobs.com/en-US/Careers/job/Broadridge-Summer-2027-Business-Internship-Program_JR1085772).
+2. Find its statement about exposure to Excel, Power BI, Tableau, or SQL and interpreting data into business insights.
+3. Follow that requirement to this revision plan and the [planned case-study page](/research/broadridge-data-insights-case-study-plan).
+4. Confirm that the plan includes an activity, expected deliverables, and a way to check the result.
+5. Record the peer review outcome only after the reviewer completes the check.
+
+**Pre-build review:** Pending. The reviewer can verify the research-to-plan connection now; the data analysis and dashboard themselves can only be checked after they are built.
+
+### Verification after the case study is built
+
+I will compare at least one SQL result with the corresponding visual or summary, reconcile the record count against the cleaned dataset, explain any excluded or missing data, and ask a reviewer to reproduce one reported metric. Any mismatch and correction will be documented before claiming the work is verified.
